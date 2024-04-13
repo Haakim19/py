@@ -2,8 +2,8 @@
  using namespace std;
  int main()
  {
-   int number=0;
+   int numbers=0;
    cout <<"Enter a Number";
-  cin >> number;
+  cin >> numbers;
    return 0;
  }
