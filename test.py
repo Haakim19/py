@@ -1,2 +1,2 @@
-#this a print statment
+#this a print statement
 print("zoro world")
