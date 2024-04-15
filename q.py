@@ -1,4 +1,4 @@
-'''#question-1
+#question-1
 #develop a cpp program to input item number,item price,discount,and quantity
 #display the total amount
 
@@ -84,18 +84,18 @@ while i<=10:
     num=int(input("enter number:"))
     total=total+num
     i+=1
-print(total)'''
+print(total)
 
 #question-6
-#input 10 numbers and display only the positive number
+#input 10 numbers and list the positive,negative numbers separatly and display them 
 pnums =[]
 nnums=[]
-for i in range(0,11):
+for i in range(0,10):
     num=int(input(f'enter number {i+1}: '))
     if num>0:
         pnums.append(num)
     else:
         nnums.append(num)
         
-print(f'you entered posituve numbers:{pnums}')
-print(f'you entered negative numbers:{nnums}')
+print(f'entered posituve numbers:{pnums}')
+print(f'entered negative numbers:{nnums}')
