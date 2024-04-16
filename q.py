@@ -46,7 +46,7 @@ order_value=float(input("order value: "))
 mod=customer_no%2
 if mod==0:
     customer_type="Regular"
-    discount=0.1+
+    discount=0.1
 
 elif mod==1:
     customer_type="NON-Regular"
