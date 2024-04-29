@@ -12,15 +12,13 @@ Input the value for nth term: 5
 The sum of the above series is: 55
 
 '''
-'''number=int(input("Enter a number to be squar value:"))
+number=int(input("Enter a number to be squar value:"))
 total=0
 for i in range(0,number+1):
     
     print(int(i)**2)
     total+=int(i)**2
-print("Sum of the series:",total)'''
-
-
+print("Sum of the series:",total)
 
 
 
@@ -33,17 +31,15 @@ have at least 10 years of working experience with RTX company.
 '''
 
 
-'''for i in range(1,51):
+for i in range(1,51):
     employee_number=int(input("Employee Number:"))
     designation=(input("Designation:"))
     years_of_working=int(input("Years of working:"))
     
     if years_of_working>=10:
-        print(f"Employee number {employee_number} is working {years_of_working} years with RTX company as a {designation}.")'''
+        print(f"Employee number {employee_number} is working {years_of_working} years with RTX company as a {designation}.")
    
    
-
-
 
 
 '''
@@ -86,7 +82,7 @@ u<50 = 10
 *If the total bill is less than 500, 5% from the bill will be deducted as a discount.
 
 '''
-''''bill=0
+bill=0
 
 Number_of_units=int(input("Number of units used: "))
 if Number_of_units>=100:
@@ -100,4 +96,5 @@ if bill>5000:
 elif bill<500:
     bill-=(bill*0.05)
 
-print(f'Your Bill is:{bill}')'''
+print(f'Your Bill is:{bill}')
+
