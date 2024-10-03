@@ -1,0 +1,2 @@
+this file contains what are the featurs this application likely to have for now(the upgrades can be made)
+this application is a airplane ticket booking application 
